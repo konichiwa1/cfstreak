@@ -4,11 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Codeforces Streak</title>
+    <style>
+        table, th, td {
+          border: 1px solid;
+        }
+    </style>
 </head>
 <body>
-    <div style="text-align: center; margin-top: 35vh;">
-        <span id="svg-container" style="vertical-align: middle; display: inline-block;"></span>
-        <span id="streak-value" style="font-size: 20vh; vertical-align: middle; display: inline-block;"></span>
+    <div style="display: flex; justify-content: center; margin-top: 25vh;">
+        <div style="align-self: center;">
+            <span id="svg-container" style="vertical-align: middle; display: inline-block; margin-right: 3vh;"></span>
+            <span id="streak-value"></span>
+        </div>
+    </div>
+    <div style="text-align: center;">
+        
+        
+    </div>
+    <div style="display: flex; justify-content: center; margin-top: 5vh;">
+        <div style="align-self: center;">
+            <table style="text-align: center;">
+                <tr>
+                    <td style="width: 10vh;"><span id="svg-containerr"></span></td>
+                    <td style="width: 10vh;"><span id="streak-valuer"></span></td>
+                </tr>
+                <tr>
+                    <td style="width: 10vh;"><span id="svg-containerrr"></span></td>
+                    <td style="width: 10vh;"><span id="streak-valuerr"></span></td>
+                </tr>
+            </table>
+        </div>
     </div>
     <script src="streak.js"></script>
 </body>
